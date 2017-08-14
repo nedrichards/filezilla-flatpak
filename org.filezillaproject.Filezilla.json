@@ -38,7 +38,7 @@
             "/lib/pkgconfig"
         ]
     },
-        {
+    {
         "name": "wxWidgets",
         "config-opts": [
             "--with-gtk=3",
@@ -57,7 +57,6 @@
             "--disable-webviewwebkit",
             "--with-expat=builtin",
             "--with-libiconv=/usr" ],
-        "make-args": ["-j4"],
         "build-options" : {
             "cxxflags":"-std=c++0x"
         },
@@ -68,10 +67,9 @@
                 "sha256":"3164ad6bc5f61c48d2185b39065ddbe44283eb834a5f62beb13f1d0923e366e4" 
             } 
         ]
-        },
+    },
     {
         "name": "libfilezilla",
-        "buildsystem": "autotools",
         "sources": [
             {
                 "type": "archive",
@@ -82,7 +80,6 @@
     },
     {
         "name": "filezilla",
-        "buildsystem": "autotools",
         "config-opts": [
             "--with-pugixml=builtin"
         ],
