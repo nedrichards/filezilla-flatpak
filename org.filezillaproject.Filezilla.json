@@ -1,6 +1,5 @@
 {
     "id": "org.filezillaproject.Filezilla",
-    "base-version": "master",
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.24",
     "sdk": "org.gnome.Sdk",
@@ -18,7 +17,7 @@
             "--share=network"
     ],
     "modules": [
-        {
+    {
         "name": "libglu",
         "config-opts": [
             "--enable-shared",
@@ -55,7 +54,6 @@
             "--disable-webviewwebkit",
             "--with-expat=builtin",
             "--with-libiconv=/usr" ],
-        "make-args": ["-j4"],
         "build-options" : {
             "cxxflags":"-std=c++0x"
         },
