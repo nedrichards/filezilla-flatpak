@@ -67,7 +67,6 @@
         },
     {
         "name": "libfilezilla",
-        "buildsystem": "autotools",
         "sources": [
             {
                 "type": "archive",
@@ -78,7 +77,6 @@
     },
     {
         "name": "filezilla",
-        "buildsystem": "autotools",
         "config-opts": [
             "--with-pugixml=builtin"
         ],
